@@ -65,4 +65,10 @@
   <ItemGroup>
     <None Include="PublishLocations\BobData.publish.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\Book.sql" />
+    <Build Include="dbo\Tables\Author.sql" />
+    <Build Include="dbo\Stored Procedures\spAuthorLookup.sql" />
+    <Build Include="dbo\Stored Procedures\spAuthor_GetAll.sql" />
+  </ItemGroup>
 </Project>
