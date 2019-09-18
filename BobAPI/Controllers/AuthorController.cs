@@ -11,7 +11,7 @@ namespace BobAPI.Controllers
 {
     public class AuthorController : ApiController
     {
-        // GET: api/Author Dayana Sucks
+        // GET: api/Author Dayana Sucks Hard
         public List<AuthorModel> Get()
         {
             AuthorData data = new AuthorData();
